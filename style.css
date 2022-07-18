@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+html {
+    height: 100%;
+    overflow-y: hidden;
+    font-family: Overpass;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.blackBg {
+    background-color: #141519;
+    width: 80vw;
+    height: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page1 {
+    background-color: #202731;
+    width: 400px;
+    height: 400px;
+    color: white;
+
+    border-radius: 30px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.circle {
+    padding: 10px 12px;
+    margin: 11px 7px;
+    background-color: #272f3a;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+p{
+    font-size: 15px;
+    color:hsl(217, 12%, 63%);
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #252e37;
+    margin: 10px;
+    padding: 12px 16px;
+    border-radius: 25px;
+    color:hsl(217, 12%, 63%);
+    border: none;
+}
+
+.btn:hover:not(.clicked) {
+    background-color: hsl(25, 97%, 53%);
+    color:  hsl(0, 0%, 100%);
+}
+
+.clicked {
+    background-color:  hsl(216, 12%, 54%);
+    color:  hsl(0, 0%, 100%);
+}
+
+#submitBtn {
+    background-color: hsl(25, 97%, 53%);
+    width: 80%;
+    height: 40px;
+    margin: 15px;
+    padding: 7px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 22px;
+    letter-spacing: 2px;
+    border: none;
+}
+
+#submitBtn:hover {
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+}
+
+.page2 {
+    display: none;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.result {
+    color:  hsl(25, 97%, 53%);
+    font-size: smaller;
+    background-color:hsl(213, 19%, 18%);
+    flex-basis: 100%;
+    margin: 20px 80px 0 80px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+.thanks {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.images {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+
+}
+
+.content2 { 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
