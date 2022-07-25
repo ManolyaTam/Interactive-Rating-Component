@@ -21,8 +21,8 @@ This is a solution to the [Interactive-Rating-Component](https://www.frontendmen
 
 ## Links
 
-  <!-- - [Solution URL](https://github.com/ManolyaTam/QR-Code-Component)
-  - [Live Site URL](https://manolyatam.github.io/QR-Code-Component/) -->
+  - [Solution URL](https://github.com/ManolyaTam/Interactive-Rating-Component)
+  - [Live Site URL](https://manolyatam.github.io/Interactive-Rating-Component/)
 
 
 ### Author
